@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" id="cordova-plugin-xmlhttprequest" version="1.0.0">
+  <engines>
+    <engine name="cordova" version=">=7.0.0" />
+  </engines>
+
+  <name>XMLHttpRequest</name>
+  <keywords></keywords>
+  <repo>https://github.com/gregmax17/cordova-plugin-xmlhttprequest.git</repo>
+  <issue>https://github.com/gregmax17/cordova-plugin-xmlhttprequest/issues</issue>
+
+  <js-module src="xmlhttprequest-fix.js" name="xmlhttprequest">
+    <merges target="window" />
+  </js-module>
+</plugin>

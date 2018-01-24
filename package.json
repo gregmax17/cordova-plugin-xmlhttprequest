@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-xmlhttprequest",
+  "version": "1.0.0",
+  "description": "An ugly hack to make the XMLHttpRequest.status property return 200 instead of 0",
+  "cordova": {
+    "id": "cordova-plugin-xmlhttprequest",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregmax17/cordova-plugin-xmlhttprequest.git"
+  },
+  "keywords": [
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=7.0.0"
+    }
+  ],
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/gregmax17/cordova-plugin-xmlhttprequest/issues"
+  },
+  "homepage": "https://github.com/gregmax17/cordova-plugin-xmlhttprequest"
+}
